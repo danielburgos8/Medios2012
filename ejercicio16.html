@@ -1,0 +1,50 @@
+<html>
+<head><title>Informaci&oacute;n sobre el producto</title>
+</head>
+<body>
+<h3>Informaci&oacute;n sobre el producto</h3>
+
+<form action="url" method="POST">
+	<fieldset> <legend>Datos b&aacute;sicos</legend>
+	
+	<label for="nombre">Nombre</label></br>
+	<input type="text" id="nombre" name="nombre"/></br>
+	
+	<label for="descripcion">Descripci&oacute;n</label>
+	</br><textarea id="descripcion" name="descripcion"/></textarea></br>
+	
+	
+	<label for="foto">Foto</label>
+	<input type="file" id="foto" name="foto"/></br>
+	
+	<input type="checkbox" name="contador" value="añadir"/>A&ntilde;adir contador de visitas</input>
+	</fieldset>
+
+	<fieldset> <legend>Datos econ&oacute;micos</legend>
+	
+	<label for="precio">Precio</label>
+	<input name="precio" id="precio" type="text" maxlength="4" size="4"/>&euro;&nbsp;
+	
+	<label for="impuestos">Impuestos</label>
+	<select id="impuestos" name="impuestos">
+		<option value="4" selected="selected">4%</option>
+		<option value="7">7%</option>
+		<option value="16">16%</option>
+		<option value="25">25%</option>
+	</select></br>
+	
+	<label for="promocion">Promoci&oacute;n</label></br>
+	<input name="promocion" id="promocion" type="radio" value="Ninguno"/>Ninguno
+	<input name="promocion" type="radio" value="Transporte gratuito"/>Transporte gratuito
+	<input name="promocion" type="radio" value="Descuento 5%"/>Descuento 5%
+	
+	</fieldset>
+
+
+
+
+
+
+</form
+</body>
+</html>
